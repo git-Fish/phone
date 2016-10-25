@@ -1,0 +1,415 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-10-20 16:38:37
+ * @version $Id$
+ */
+body{
+	font-size: 62.5%;
+	background-color: #0c032d;
+	font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;}
+
+.header{
+	height: 4.2rem;
+	background-color: #fff;
+	border-bottom: 1px solid #d8d7d7;
+	//font-size: 1.75em;
+	display: -webkit-box;
+	display: box;
+}
+.hea-l{
+	width: 3rem;
+	height: 100%;
+}
+.hea-l .hea-l-img{
+	width: 0.85rem;
+	height: 1.55rem;
+	background: url(../image/backIcon.png) no-repeat center center;
+	background-size: contain;
+	margin-top: 1.1rem;
+	margin-left: 1rem;
+}
+.hea-cen{
+	-webkit-box-flex: 1;
+	font-size: 1.4rem;
+	line-height: 4.2rem;
+	text-align: center;
+	color: #333;
+}
+.hea-r{
+	width: 3rem;
+	height: 100%;
+}
+.hea-r-img{
+	width: 1.55rem;
+	height: 1.5rem;
+	float: right;
+	margin-right: 1.1rem;
+	margin-top: 1.1rem;
+	background: url(../image/homeIcon.png) no-repeat center center;
+	background-size: contain;
+}
+.ban-img{
+	width: 100%;
+}
+.content .con-list1{
+	padding: 2.25rem;
+	text-align: center;
+}
+.content .con-list1 img{
+	width: 12.1rem;
+	height: 9.35rem;
+}
+.fontStyle1{
+	font-size: 1.6rem;
+	color: #f05452;
+	text-align: center;
+}
+.fontStyle2{
+	font-size: 1.2rem;
+	color: #fff;
+	text-align: center;
+}
+.fontStyle3{
+	font-size: 1.3rem;
+	color: #f05452;
+	text-align: left;
+}
+.con-list2{
+	padding: 0 1rem;
+	margin-bottom: 1.5rem;
+}
+.con-link{
+	//width: 100%;
+	background-color: #fff;
+	margin-top: 0.5rem;
+	padding: 1.25rem 0.85rem;
+	border-radius: 0.15rem;
+	overflow: hidden;
+	display: -webkit-box;
+	display: box;
+	position: relative;
+}
+.con-link .linkline1{
+	width: 20rem;
+	float: left;
+	word-break:break-all;
+	font-size: 1.1rem;
+	color: #999999;
+	font-family: "Tahoma";
+	-webkit-box-flex: 1;
+	box-flex: 1;
+	position: relative;
+	display: -webkit-box;
+	padding-right: 1.8rem;
+}
+.con-link .copyBtn{
+	width: 6.9rem;
+	height: 2.6rem;
+	background: url(../image/btn1.png) no-repeat;
+	background-size: contain;
+	border: 0 none;
+	padding: 0;
+	float: right;
+}
+.marBtm1{
+	margin-bottom: 3.6rem;
+}
+
+/* 填写报名信息样式 */
+.font32px{
+	font-size: 1.6rem;
+}
+.font24px{
+	font-size: 1.2rem;
+}
+.pad20px{
+	padding: 0 1rem;
+}
+.reportHd{
+	padding: 2rem 0 1.5rem 0;
+	color: #fff;
+	font-weight: normal;
+}
+.colorRed{
+	color: #ff0000;
+}
+.pad10px{
+	padding-left: 0.5rem;
+}
+.reportHd2{
+	color: #fff;
+	font-weight: normal;
+}
+.fl{
+	float: left;
+}
+.mustWrite{
+	padding-top: 0.3rem;
+}
+.selectJobwrap{
+	/*display: -webkit-box;
+	position: relative;*/
+	margin-top: 1.2rem;
+}
+.selectJobwrap .selectList1{
+	//-webkit-box-flex: 1;
+	display: -webkit-box;
+	position: relative;
+	padding-bottom: 1.3rem;
+}
+.selectJobwrap .selectList1 li{
+	-webkit-box-flex: 3;
+	position: relative;
+	list-style: none;
+	color: #fff;
+	font-size: 1.2rem;
+	padding: 0;
+	margin: 0;
+}
+.selectJobwrap .selectList1 li:before{
+	content: "";
+	float: left;
+	width: 1.6rem;
+	height: 1.6rem;
+	margin-right: 1.1rem;
+	background: url(../image/checkImg1.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.selectJobwrap .selectList1 li.selected:before{
+	background-image: url(../image/checkImg2.png);
+}
+.mainPing{
+	width: 100%;
+	background-color: #fff;
+	border-radius: 0.15rem;
+	height: 3rem;
+	margin-top: 0.75rem;
+	padding: 0 0.9rem;
+	box-sizing: border-box;
+	font-size: 1.2rem;
+}
+.uploadImg{
+	padding-top: 2rem;
+	overflow: hidden;
+}
+.uploadImg .uploadHd{
+	color: #fff;
+	font-size: 1.3rem;
+	float: left;
+}
+.uploadWrap{
+	float: left;
+	position: relative;
+	padding-bottom: 1.1rem;
+}
+.uploadWrap .uploadTxt,
+.uploadWrap .uploadShow{
+	float: left;
+	width: 5.5rem;
+	height: 2.5rem;
+	
+}
+.uploadWrap .uploadTxt{
+	opacity: 0;
+}
+.uploadWrap .uploadShow{
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: -1;
+	background: url(../image/uploadImg.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.reportHd3{
+	font-size: 1.3rem;
+	color: #fff;
+	padding: 2rem 0 1rem 0;
+	font-weight: normal;
+}
+.reportList5{
+	position: relative;
+	margin-bottom: 1.5rem;
+}
+.reportTarea{
+	height: 6.1rem;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 0.15rem;
+	resize: none;
+}
+.reportList5 span{
+	color: #999;
+	font-size: 1rem;
+	position: absolute;
+	bottom: 1rem;
+	right: 0.75rem;
+}
+.reportBtns{
+	width: 100%;
+	border: 0 none;
+	margin-bottom: 3.1rem;
+	color: #fff;
+	font-size: 1.4rem;
+	background-color: #f05452;
+	height: 4rem;
+	line-height: 4rem;
+	border-radius: 0.25rem;
+}
+
+/* 完善公司信息样式 */
+.eReportHd{
+	padding-top: 2.5rem;
+	padding-bottom: 2rem;
+}
+.eMessTxt{
+	margin-bottom: 1.5rem;
+}
+.eReportBtns{
+	margin-top: 0.9rem;
+	margin-bottom: 4rem;
+}
+
+/* 报名页 */
+.signList1{
+	height: 7.25rem;
+	margin-top: 1.5rem;
+	border: 1px solid #361883;
+}
+.signList1 .signlHd{
+	text-align: center;
+	color: #fff;
+	font-size: 1.2rem;
+	padding: 1rem 0 0.9rem 0;
+	font-weight: normal;
+}
+.signbdWrap{
+	display: -webkit-box;
+	display: box;
+	-webkit-box-pack: center;/* 水平居中 */
+	box-pack: center;
+}
+
+.signList1 .signlbd>li{
+	float: left;
+	list-style: none;
+	color: #fff;
+	font-size: 0.7rem;
+	line-height: 2.55rem;
+	padding-right: 0.75rem;
+}
+.signList1 .signlbd>li>span{
+	float: left;
+	text-align: center;
+	line-height: 2.55rem;
+	font-size: 1.4rem;
+	width: 2.6rem;
+	height: 2.55rem;
+	background: url(../image/signbg1.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+	padding-right: 0.3rem;
+}
+.signlHd2{
+	font-size: 1.6rem;
+	color: #fff;
+	padding: 2.4rem 0 1.3rem 0;
+	font-weight: normal;
+}
+.signlbd2{
+	display: -webkit-box;
+	display: box;
+}
+.signlbd2 li{
+	//-webkit-box-flex: 1;
+	//box-flex: 1;
+	//position: relative;
+	width: 32.777777777%;
+	list-style: none;
+	color: #fff;
+	font-size: 1.4rem;
+	text-align: center;
+	height: 3.8rem;
+	line-height: 3.8rem;
+	margin-right: 0.25rem;
+	margin-bottom: 0.25rem;
+	background: url(../image/signbg2.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: box;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	box-pack: center;
+	-webkit-box-align: center;
+	box-align: center;
+}
+.noMarRight{
+	margin-right: 0;
+}
+.signlbd2 li i{
+	width: 0.6rem;
+	height: 1.1rem;
+	background: url(../image/signIcon1.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: -webkit-box;
+	display: box;
+	margin-left: 0.4rem;
+}
+.singLine1{
+	text-align: left;
+	
+}
+.signList2 .singLine1>li{
+	display: -webkit-box;
+	display: box;
+	-webkit-box-pack: inherit;
+	box-pack: inherit;
+	position: relative;
+	width: 100%;
+}
+.signList2 .singLine1>li span{
+	margin-left: 1rem;
+}
+ .signList2 .singLine1>li i{
+	margin-right: 1rem;
+} 
+.rightIcon{
+	display: -webkit-box;
+	display: box;
+	-webkit-box-flex: 1;
+	box-flex: 1;
+	-webkit-box-pack: end;
+	box-pack: end;
+}
+.padBtm75px{
+	padding-bottom: 3.75rem;
+}
+.mustFourCon .layui-m-layercont{
+	font-family: "\5FAE\8F6F\96C5\9ED1";
+	height: 100%;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: box;
+	-webkit-box-align: center;
+	box-align: center;
+	-webkit-box-pack: center;
+	box-pack: center;
+}
+.mustFourCon .layui-m-layerbtn{
+	background: 0 none;
+	width: 1.6rem;
+	height: 1.6rem;
+	position: absolute;
+	top: 1.8rem;
+	right: 1.8rem;
+	background: url(../image/close1.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+	border: 0 none;
+}
