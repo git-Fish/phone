@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/signStyle.css">
+</head>
+<body>
+    <div class="header">
+    	<div class="hea-l">
+    		<div class="hea-l-img"></div>
+    	</div>
+    	<div class="hea-cen">优质供应商评选</div>
+    	<div class="hea-r">
+    		<div class="hea-r-img"></div>
+    	</div>
+    </div>
+    <div class="banner">
+    	<img class="ban-img" src="image/bannner1.png" alt="">
+    </div>
+    <div class="content">
+    	<div class="con-list1">
+    		<img src="image/icon2.png" alt="">
+    		<p class="fontStyle1">恭喜您，报名成功</p>
+    		<p class="fontStyle2">复制以下投票链接，邀请好友投票吧！</p>
+    	</div>
+    	<div class="con-list2">
+    		<p class="fontStyle3">集成电路 参选链接：</p>
+    		<div class="con-link">
+    			<div class="linkline1" id="links1">
+    				http://www.cecb2b.com/zt/2014youzhigongyingshang.shtml？1001
+    			</div>
+    			<div class="linkline2">
+    				<button class="copyBtn" data-clipboard-action="copy" data-clipboard-target="#links1"></button>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="con-list2 marBtm1">
+    		<p class="fontStyle3">集成电路 参选链接：</p>
+    		<div class="con-link">
+    			<div class="linkline1" id="links2">
+    				http://www.cecb2b.com/zt/2014youzhigongyingshang.shtml？1001
+    			</div>
+    			<div class="linkline2">
+    				<button class="copyBtn" data-clipboard-action="copy" data-clipboard-target="#links2"></button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <script src="js/adaptive.js"></script>
+    <script src="js/clipboard.min.js"></script>
+    <script>
+        var clipboard = new Clipboard('.copyBtn');
+    </script>
+</body>
+</html>
